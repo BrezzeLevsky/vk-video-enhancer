@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         VK Video Blur Remover (Ultimate)
+// @name         VK Video Blur Remover (ULTIMATE v2)
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Combines best methods to remove blur, overlays, and restrictions from VK video previews.
-// @author       You & Gemini
-// @match        https://vk.com/*
-// @match        https://vkvideo.ru/*
+// @version      2.0
+// @description  Removes VK video blur & restriction via targeted webpack patch (silent & stable)
+// @author       BrezzeLevsky
+// @match        *://vk.com/*
+// @match        *://*.vk.com/*
+// @match        *://vkvideo.ru/*
 // @grant        none
 // @run-at       document-start
 // @updateURL    https://raw.githubusercontent.com/BrezzeLevsky/vk-video-enhancer/main/VK_Video_Blur_Remover.user.js
